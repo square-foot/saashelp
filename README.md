@@ -6,8 +6,6 @@ In SaaS applications, I missed the old Windows based context sensitive help syst
 
 So here is this tiny little module that should do the trick.
 
-###Read this!
-
 1. Help is written as separate topics using  DokuWiki. (see https://dokuwiki.org)
 2. See help file I wrote for my SaaS product, We.Spoke.Today  https://help.spoke.today
 3. Inside the SaaS application, just give the special data-* attribute 'data-help-id' for those elements where you want F1 key to popup help.
