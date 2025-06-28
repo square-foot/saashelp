@@ -7,7 +7,7 @@ In SaaS applications, I missed the old Windows based context sensitive help syst
 So here is this tiny little module that should do the trick.
 
 1. Help is written as separate topics using  DokuWiki. (see https://dokuwiki.org)
-2. See help file I wrote for my SaaS product, We.Spoke.Today  https://help.spoke.today
+2. See help file I wrote for my hybrid SaaS product, Git Winch  See its help here:  https://help.gitwinch.com 
 3. Inside the SaaS application, just give the special data-* attribute 'data-help-id' for those elements where you want F1 key to popup help.
 4. The value of the above 'data-help-id' should be that of the wiki page in your dokuwiki.
 5. It can also detect the page name from the title attribute and/or id attribute of elements. If it can't find a help-id it would bubble up and search in parent and ancestors. If nothing is found, it will show the default help page.
